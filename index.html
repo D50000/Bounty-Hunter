@@ -3,11 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fancy Table Example</title>
+    <title>Bounty-Hunter 🏆</title>
     <style>
       body {
-        margin: auto 0;
         font-family: Arial, sans-serif;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
       }
 
       table {
@@ -36,43 +41,71 @@
     </style>
   </head>
   <body>
-    <h2>Hackathon Competition</h2>
+    <div class="container">
+      <h2>Hacker Competition</h2>
 
-    <table>
-      <thead>
-        <tr>
-          <th>Hackathon</th>
-          <th>Detail</th>
-          <th>Project</th>
-          <th>Prize</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>John Doe</td>
-          <td>john@example.com</td>
-          <td>(123) 456-7890</td>
-          <td>USA</td>
-        </tr>
-        <tr>
-          <td>Jane Smith</td>
-          <td>jane@example.com</td>
-          <td>(987) 654-3210</td>
-          <td>Canada</td>
-        </tr>
-        <tr>
-          <td>Michael Johnson</td>
-          <td>michael@example.com</td>
-          <td>(555) 123-4567</td>
-          <td>Australia</td>
-        </tr>
-        <tr>
-          <td>Maria Garcia</td>
-          <td>maria@example.com</td>
-          <td>(999) 888-7777</td>
-          <td>Spain</td>
-        </tr>
-      </tbody>
-    </table>
+      <table>
+        <thead>
+          <tr>
+            <th>Organization</th>
+            <th>Date</th>
+            <th>Project Name</th>
+            <th>summary</th>
+            <th>Detail</th>
+            <th>Prize</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>EthTaipei-Hackathon</td>
+            <td>2023/04</td>
+            <td>ZeroChain</td>
+            <td>
+              ZeroChain presents ZeroPass, a service leveraging Semaphore for
+              Zero-Knowledge authentication (PSE service).
+            </td>
+            <td>https://github.com/D50000/2023-EthTaipei-Hackathon</td>
+            <td>Second Place, Silver Prize with Proof of Participation</td>
+          </tr>
+          <tr>
+            <td>EthGlobal-HackFS</td>
+            <td>2023/05</td>
+            <td>FanStreamium</td>
+            <td>
+              FanStreamium is a brand-new Web3 video streaming and subscription
+              (NFT) platform that integrates a Web3 database aggregation
+              platform for data management.
+            </td>
+            <td>https://github.com/D50000/EthGlobal-HackFS2023-FanStreamium</td>
+            <td>Certificate and Proof of Attendance Protocol</td>
+          </tr>
+          <tr>
+            <td>Ethglobal-autonomous</td>
+            <td>2023/07</td>
+            <td>Escape from ChainRogue</td>
+            <td>
+              This project is a innovative roguelike game that powered by
+              Multi-User Dungeon 2 (MUD2).
+            </td>
+            <td>
+              https://github.com/D50000/Ethglobal-2023-autonomous-Escape-from-ChainRogue/tree/main
+            </td>
+            <td>Certificate and Proof of Attendance Protocol</td>
+          </tr>
+          <tr>
+            <td>EthTaipei-Hackathon</td>
+            <td>2024/04</td>
+            <td>Chronos Share</td>
+            <td>
+              Chronos-Share meaning time as service, our platform transforms
+              spare moments into valuable assets, creating a unique marketplace
+              for time trading.
+            </td>
+            <td>https://github.com/D50000/2024-EthTaipei-Hackathon</td>
+            <td>Third Place, Bronze Prize with Proof of Participation</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </body>
 </html>
