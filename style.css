@@ -19,7 +19,7 @@ h2 {
 
 table {
   width: 100%;
-  max-width: 800px;
+  max-width: 85%;
   border-collapse: collapse;
   margin-bottom: 20px;
   background-color: #ffffff;
@@ -29,8 +29,27 @@ table {
 th,
 td {
   padding: 12px;
-  text-align: left;
   border-bottom: 1px solid #ddd;
+}
+
+.org {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.avatar {
+  width: 5rem;
+  height: 5rem;
+  border: 0.3rem solid rgb(206, 206, 213);
+  border-radius: 999px;
+  border-width: 0.25rem;
+}
+
+.trophy {
+  font-weight: bold;
+  font-style: italic;
 }
 
 th {
@@ -39,7 +58,7 @@ th {
 }
 
 tr:hover {
-  background-color: #ffc107;
+  background-color: #ffc107 !important;
 }
 
 .center {
@@ -95,5 +114,5 @@ th {
 }
 
 tbody tr:nth-child(odd) {
-  background-color: #f9f9f9;
+  background-color: #f0eeee;
 }
