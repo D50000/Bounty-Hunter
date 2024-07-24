@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: Monaco, Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f8f9fa;
@@ -14,14 +14,12 @@ body {
 
 h2 {
   color: #343a40;
-  margin-bottom: 20px;
 }
 
 table {
-  width: 100%;
-  max-width: 85%;
+  max-width: 90%;
+  min-width: 700px;
   border-collapse: collapse;
-  margin-bottom: 20px;
   background-color: #ffffff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -29,13 +27,9 @@ table {
 th,
 td {
   padding: 12px;
-  border-bottom: 1px solid #ddd;
 }
 
 .org {
-  display: flex !important;
-  flex-direction: column;
-  align-items: center;
   text-align: center;
 }
 
@@ -65,9 +59,19 @@ tr:hover {
   text-align: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 720px) {
+  .container {
+    display: initial;
+    padding: 10px;
+  }
+
+  h2 {
+    margin: 10px;
+  }
+
   table {
     width: 100%;
+    margin: 10px;
   }
 
   th,
@@ -75,25 +79,17 @@ tr:hover {
     padding: 10px;
     font-size: 14px;
   }
-
-  .container {
-    padding: 10px;
-  }
-
-  h2 {
-    font-size: 24px;
-  }
 }
 
 @media (max-width: 480px) {
+  h2 {
+    font-size: 20px;
+  }
+
   th,
   td {
     padding: 8px;
     font-size: 12px;
-  }
-
-  h2 {
-    font-size: 20px;
   }
 }
 
