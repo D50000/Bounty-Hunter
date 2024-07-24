@@ -1,7 +1,4 @@
-# [Bounty-Hunter](https://d50000.github.io/Bounty-Hunter/) 👈 CLICK HERE 🏅🏆🎖️
+# [Bounty-Hunter](https://d50000.github.io/Bounty-Hunter/) 👈🏅🏆🎖️
 
-### TODO:
-
-- RWD
-- Org Logo
-- Style it
+↑↑↑↑↑↑↑↑  
+CLICK HERE
