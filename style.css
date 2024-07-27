@@ -17,7 +17,7 @@ h2 {
 }
 
 table {
-  max-width: 90%;
+  max-width: 90vw;
   min-width: 700px;
   border-collapse: collapse;
   background-color: #ffffff;
@@ -59,18 +59,13 @@ tr:hover {
   text-align: center;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 768px) {
   .container {
     display: initial;
-    padding: 10px;
   }
 
-  h2 {
-    margin: 10px;
-  }
-
+  h2,
   table {
-    width: 100%;
     margin: 10px;
   }
 
@@ -82,6 +77,10 @@ tr:hover {
 }
 
 @media (max-width: 480px) {
+  .container {
+    display: initial;
+  }
+
   h2 {
     font-size: 20px;
   }
