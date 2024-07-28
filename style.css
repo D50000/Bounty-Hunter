@@ -61,11 +61,13 @@ tr:hover {
 
 @media (max-width: 768px) {
   .container {
-    display: initial;
+    display: block;
+    min-width: 750px;
   }
 
   h2,
   table {
+    width: 500px;
     margin: 10px;
   }
 
@@ -78,10 +80,12 @@ tr:hover {
 
 @media (max-width: 480px) {
   .container {
-    display: initial;
+    display: block;
+    min-width: 750px;
   }
 
   h2 {
+    width: 500px;
     font-size: 20px;
   }
 
